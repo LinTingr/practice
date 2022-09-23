@@ -100,29 +100,33 @@ a{
     justify-content: right;
 }
 /*############################################## */
+.back{
+    width: auto;
+    background-color: #f8f8f8;
+}
 .alltools{
-    display: flex;  
-    width: 1200px;
-    height: 400px;
+    display: flex; 
     margin: auto;
-    background-color: #ffffff;
+    width: 1200px;
+    height: 500px;
     justify-content: space-between;
     align-items: center;
     line-height: 30px;
-    
 }
 .tool{
     display: flex;
-    width: 350px;
-    height: 300px;
+    width: 380px;
+    height: 350px;
     align-items: center;
     text-align: center;
     background-color: #ffffff;
-    box-shadow: 5px 5px 5px 5px #f6f6f6;
+    box-shadow: 5px 5px 5px 5px #f8f8f8;
 }
-.tool all{
-   line-height: 30px;
+.tool:hover{
+    background-color: #6045e2;
+    transition: 1s;
 }
+
 .img{
     display: flex;
     align-items: center;
